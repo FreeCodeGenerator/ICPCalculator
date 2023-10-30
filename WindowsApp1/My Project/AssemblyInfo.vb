@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("ICP Calculator")>
 <Assembly: AssemblyDescription("Calculator for ICP - ASTM D4951")>
 <Assembly: AssemblyCompany("RLPC")>
-<Assembly: AssemblyProduct("WindowsApp1")>
+<Assembly: AssemblyProduct("ICPCalc")>
 <Assembly: AssemblyCopyright("Copyright ©  2023")>
 <Assembly: AssemblyTrademark("")>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.2")>
+<Assembly: AssemblyVersion("1.0.5.2")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>

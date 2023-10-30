@@ -5,7 +5,12 @@
 
         ' Tu código principal aquí
         Dim version As String = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString()
-        Label15.Text = version
+        Label15.Text = "v." & version
+
+        ' Asociar el ToolTip con el botón
+        ToolTip1.SetToolTip(ClearButton, "Erase all entered data")
+        ToolTip2.SetToolTip(CommandButton1, "Close application")
+
     End Sub
     Private Sub SamWeiTB_TextChanged(sender As Object, e As EventArgs) Handles SamWeiTB.TextChanged
         ' Esta función permite ingresar solo números positivos en 'Sample Weight'
@@ -22,6 +27,16 @@
             ppmMgL.Text = ""
             wtCaL.Text = ""
             ppmCaL.Text = ""
+            wtBaL.Text = ""
+            ppmBaL.Text = ""
+            wtBL.Text = ""
+            ppmBL.Text = ""
+            wtCuL.Text = ""
+            ppmCuL.Text = ""
+            wtMoL.Text = ""
+            ppmMoL.Text = ""
+            wtSL.Text = ""
+            ppmSL.Text = ""
         Else
             Label33.Text = ""
             ' No permite escribir más de un punto decimal ni letras
