@@ -1,12 +1,12 @@
 ﻿Public Class ICPCalculator
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
+    Private Sub ICPCalculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Código que se ejecuta al iniciar la aplicación
+        ' MessageBox.Show("La aplicación ha comenzado.")
 
+        ' Tu código principal aquí
+        Dim version As String = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString()
+        Label15.Text = version
     End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
     Private Sub SamWeiTB_TextChanged(sender As Object, e As EventArgs) Handles SamWeiTB.TextChanged
         ' Esta función permite ingresar solo números positivos en 'Sample Weight'
         SamWeiTB.MaxLength = 7
@@ -55,11 +55,6 @@
             End If
         End If
     End Sub
-
-    Private Sub Label33_Click(sender As Object, e As EventArgs) Handles Label33.Click
-
-    End Sub
-
     Private Sub TotWeiTB_TextChanged(sender As Object, e As EventArgs) Handles TotWeiTB.TextChanged
         ' Este código permite ingresar solo números positivos en 'Total Weight'
         TotWeiTB.MaxLength = 7
@@ -585,3 +580,4 @@
     Private Sub CommandButton1_Click(sender As Object, e As EventArgs) Handles CommandButton1.Click
         Application.Exit()
     End Sub
+End Class

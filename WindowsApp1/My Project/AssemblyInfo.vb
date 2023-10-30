@@ -8,14 +8,14 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WindowsApp1")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyTitle("ICP Calculator")>
+<Assembly: AssemblyDescription("Calculator for ICP - ASTM D4951")>
+<Assembly: AssemblyCompany("RLPC")>
 <Assembly: AssemblyProduct("WindowsApp1")>
 <Assembly: AssemblyCopyright("Copyright ©  2023")>
 <Assembly: AssemblyTrademark("")>
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(True)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("fa0ba3cf-948b-42fe-afd1-47d02a5fbc76")>

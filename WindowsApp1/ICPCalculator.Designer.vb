@@ -70,6 +70,8 @@ Partial Class ICPCalculator
         Me.ppmZnL = New System.Windows.Forms.Label()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.CommandButton1 = New System.Windows.Forms.Button()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -508,11 +510,31 @@ Partial Class ICPCalculator
         Me.CommandButton1.Text = "Button2"
         Me.CommandButton1.UseVisualStyleBackColor = True
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(602, 590)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(45, 13)
+        Me.Label15.TabIndex = 25
+        Me.Label15.Text = "Label15"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(468, 97)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(45, 13)
+        Me.Label16.TabIndex = 26
+        Me.Label16.Text = "Label16"
+        '
         'ICPCalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 615)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.CommandButton1)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.ppmZnL)
@@ -597,4 +619,6 @@ Partial Class ICPCalculator
     Friend WithEvents Label33 As Label
     Friend WithEvents ClearButton As Button
     Friend WithEvents CommandButton1 As Button
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
 End Class
