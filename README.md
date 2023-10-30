@@ -1,1 +1,1 @@
-# WindowsApp1
+# ICPCalc
